@@ -1,0 +1,14 @@
+﻿<Window x:Class="WPFSnake.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPFSnake"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="337" Width="400">
+    <Grid Margin="-3,0,0,0">
+        <Canvas Name ="board" HorizontalAlignment="Left" Height="330" VerticalAlignment="Top" Width="330" Margin="0,0,0,-22.8"/>
+        <Label Name="levelLabel" HorizontalAlignment="Left" Height="21" Margin="335,276,0,0" VerticalAlignment="Top" Width="52"/>
+        <Label Name="scoreLabel" HorizontalAlignment="Left" Height="62" Margin="335,10,0,0" VerticalAlignment="Top" Width="52"/>
+    </Grid>
+</Window>
